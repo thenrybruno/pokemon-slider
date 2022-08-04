@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagens/pokebola.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Pokémon Slider</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/pokebola2.png" alt="pokebola" class="pokebola">
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta.png" alt="anterior" class="seta">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP-300</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">É um tipo de Pokémon elétrico, os  discos vermelhos em suas bochechas são capazes de gerar choques elétricos de intensidade variável, chegando até o nível de poder de um raio. Eles também o usam para se defender.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Charmander</h2>
+                    <p class="vida">HP-300</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/charmander.png" alt="Charmander" class="imagem-pokemon charmander">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A chama que arde na ponta da cauda é uma indicação das suas emoções. A chama vacila quando Charmander está desfrutando de si mesmo. Se o Pokémon fica furioso, a chama queima ferozmente.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP-1000</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/charizard.png" alt="Charizard" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Charizard voa em torno do céu em busca de adversários poderosos. Ele respira fogo de tão grande calor que derrete qualquer coisa. No entanto, nunca vira a sua respiração ardente em qualquer adversário mais fraco do que o próprio.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Squirdle</h2>
+                    <p class="vida">HP-300</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/squirtle.png" alt="Squirdle" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O casco de Squirtle não é apenas usado para a proteção. A forma arredondada do casco e as ranhuras em sua superfície ajudam a minimizar a resistência na água, permitindo que este Pokémon nade em altas velocidades.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Bulbasaur</h2>
+                    <p class="vida">HP-300</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/bulbasaur.png" alt="Bulbasaur" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Bulbassauro pode ser visto cochilando sob luz solar intensa. Há uma semente na sua parte traseira. Por absorvendo os raios do sol, a semente cresce progressivamente maior</p>
+                </div>
+            </li>
+            <li class="cartao fundo-7">
+                <div class="informacoes">
+                    <h2 class="nome">Pidgey</h2>
+                    <p class="vida">HP-300</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/pidgey.png" alt="Pidgey" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Pidgey tem um sentido extremamente afiado de direção. Ele é capaz de infalivelmente voltar para seu ninho, por mais longe que seja removido do seu ambiente familiar.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-8">
+                <div class="informacoes">
+                    <h2 class="nome">Geodude</h2>
+                    <p class="vida">HP-400</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/geodude.png" alt="Geodude" class="imagem-pokemon geodude">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Quanto mais o Geodude vive, mais erosado ficam suas extremidades, o deixado mais circular em aparência. Por outro lado, o coração dele sempre será duro, escarpado e áspero.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Dratini</h2>
+                    <p class="vida">HP-600</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/dratini.png" alt="Dratini" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Dratini morde e sacode sua pele velha continuamente. Ele faz isso porque a energia vital dentro do seu corpo constrói de forma constante para atingir níveis incontroláveis.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP-1200</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="./src/imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Mewtwo é um Pokémon que foi criado por manipulação genéticado do Mew. No entanto, apesar de o poder científico dos seres humanos criado o corpo deste Pokémon, eles não conseguiram dotar Mewtwo com um coração compassivo.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="anterior">
+        </button>
+    </main>
+
+    <footer class="footer">
+        <div class="logo-pokemon">
+            <img src="./src/imagens/pokemon-logo-8.png" alt="logo-pokemon" class="logo">
+        </div>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

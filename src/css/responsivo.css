@@ -1,0 +1,101 @@
+@media(max-width: 620px) {
+    .pokemon-slider{
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-pokemons{
+        height: 480px;
+    }
+
+    .cartao .imagem-pokemon{
+        max-height: 230px;
+    }
+
+    .cartao .informacoes .nome{
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .cartao .informacoes .vida{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:340px){
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pokebola{
+        width: 40px;
+    }
+
+    .lista-pokemons{
+        height: 400px;
+    }
+
+    .cartao .informacoes .nome{
+        font-size: 15px;
+    }
+
+    .cartao .informacoes .vida{
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .cartao .descricao .titulo{
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .cartao .descricao .texto{
+        font-size: 12px;
+        padding: 8px;
+        text-align: justify;
+        max-height: 95px;
+        overflow-y: auto;
+    }
+
+    .logo{
+        width: 150px;
+    }
+}
+
+@media(max-width:310px){
+    .cabecalho{
+        padding-top: 20px;
+        gap: 10px;
+    }
+
+    .pokebola{
+        width: 30px;
+    }
+    
+    .cabecalho .titulo{
+        font-size: 25px;
+    }
+
+    .cartao .informacoes .nome{
+        font-size: 12px;
+    }
+
+    .cartao .informacoes .vida{
+        font-size: 10px;
+    }
+
+    .logo{
+        width: 120px;
+    }
+}

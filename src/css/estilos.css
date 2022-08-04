@@ -1,0 +1,177 @@
+body{
+    background-image: url(../imagens/fundo-site.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.pokebola{
+    width: 50px;
+}
+
+.cabecalho .titulo{
+    color: #dce8f3;
+}
+
+.pokemon-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 30px 0;
+}
+
+.lista-pokemons{
+    width: 310px;
+    height: 500px;
+    position: relative;
+}
+
+.btn-seta{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #dce8f3;
+    transition: 0.3s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-seta:hover{
+    background-color: #9641e4;
+}
+
+.btn-seta.btn-voltar{
+    transform: rotateY(180deg);
+}
+
+.cartao{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: absolute;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao.selecionado{
+    opacity: 1;
+    z-index: 1;
+}
+
+.fundo-1{
+    background: url(../imagens/fundo-card-1.jpg) no-repeat;
+}
+
+.fundo-2{
+    background: url(../imagens/fundo-card-2.jpg) no-repeat;
+}
+
+.fundo-3{
+    background: url(../imagens/fundo-card-3.jpg) no-repeat;
+}
+
+.fundo-4{
+    background: url(../imagens/fundo-fogo.png) no-repeat;
+}
+
+.fundo-5{
+    background: url(../imagens/fundo-agua2.jpg) no-repeat;
+    
+}
+
+.fundo-6{
+    background: url(../imagens/fundo-grama2.jpg) no-repeat;
+}
+
+.fundo-7{
+    background: url(../imagens/fundo-ceu.jpg) no-repeat;
+}
+
+.fundo-8{
+    background: url(../imagens/pedra2.png) no-repeat;
+}
+
+.fundo-9{
+    background: url(../imagens/fundo-card-9.jpg) no-repeat;
+}
+
+.cartao .informacoes{
+    background-color: rgba(179, 177, 785, 0.5);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cartao .informacoes .nome{
+    color: #dce8f3;
+    font-size: 22px;
+}
+
+.cartao .informacoes .vida{
+    background-color: #333;
+    color: #dce8f3;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+.cartao .container-imagem{
+    text-align: center;
+}
+
+.cartao .imagem-pokemon{
+    max-width: 100%;
+    max-height: 280px;
+    padding: 20px;
+}
+
+.cartao .descricao{
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cartao .descricao .titulo{
+    background-color: #333;
+    color: #dce8f3;
+    font-size: 15px;
+    padding: 12px;
+}
+
+.cartao .descricao .texto{
+    font-size: 14px;
+    padding: 12px;
+    text-align: justify;
+    max-height: 115px;
+    overflow-y: auto;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 200px;
+}
+
+
+
+
